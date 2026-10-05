@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">SmartView Pro</string>
+    <string name="product_title">SMARTVIEW PRO™</string>
+    <string name="company_name">Walnus Global</string>
+    <string name="company_full_name">Walnus Global Ventures</string>
+    <string name="product_family">SmartCoat™ System</string>
+    <string name="product_tagline">Intelligent Construction-Site Surveying &amp; Project Intelligence</string>
+    
+    <!-- Actions -->
+    <string name="action_start_survey">Start Survey</string>
+    <string name="action_new_project">New Project</string>
+    <string name="action_view_all_projects">View All Projects</string>
+    <string name="action_view_details">View Details</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_back">Back</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Navigation Destinations -->
+    <string name="nav_home">Home</string>
+    <string name="nav_projects">Projects</string>
+    <string name="nav_survey">Survey</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Section Titles -->
+    <string name="title_active_projects">Active Site Projects</string>
+    <string name="title_system_architecture">System Readiness</string>
+    <string name="title_recent_surveys">Recent Surveys</string>
+    <string name="title_project_directory">Project Directory</string>
+    <string name="title_survey_engine">Survey Engine Foundation</string>
+    <string name="title_configuration">Field Configuration</string>
+
+    <!-- Survey Placeholder Notices (SV-001 Foundation) -->
+    <string name="survey_placeholder_headline">Camera &amp; Spatial Tracking Foundation</string>
+    <string name="survey_placeholder_notice">Camera capture, ARCore spatial computing, and geometric measurement boundaries are architected for implementation in task SV-002 and subsequent modules. Current SV-001 establishes the application shell, domain models, navigation graph, and testing infrastructure.</string>
+    <string name="survey_placeholder_sv002_ready">Architecture Boundary: READY FOR SV-002</string>
+
+    <!-- Statuses -->
+    <string name="status_ready">READY</string>
+    <string name="status_in_progress">IN PROGRESS</string>
+    <string name="status_scheduled">SCHEDULED</string>
+    <string name="status_completed">COMPLETED</string>
+    <string name="status_reserved">RESERVED FOR SV-002+</string>
+    <string name="status_foundation">FOUNDATION INITIALIZED</string>
+
+    <!-- Settings Labels -->
+    <string name="setting_unit_system">Measurement System</string>
+    <string name="setting_unit_system_metric">Metric (m, cm, m², m³)</string>
+    <string name="setting_unit_system_imperial">Imperial (ft, in, sq ft, cu yd)</string>
+    <string name="setting_field_mode">High-Visibility Field Mode</string>
+    <string name="setting_field_mode_desc">Enhanced contrast for direct sunlight site conditions</string>
+    <string name="setting_diagnostic_logging">Diagnostic Logging</string>
+    <string name="setting_diagnostic_logging_desc">Record lifecycle and navigation events for field diagnostics</string>
+    <string name="setting_build_version">Build Version</string>
+    <string name="setting_build_version_val">1.0.0-SV003 (Build 3)</string>
+    <string name="setting_ecosystem">Product Ecosystem</string>
+    <string name="setting_ecosystem_val">Walnus SmartCoat™ Professional Suite</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_app_logo">SmartView Pro Logo</string>
+    <string name="cd_nav_home">Navigate to Home</string>
+    <string name="cd_nav_projects">Navigate to Projects</string>
+    <string name="cd_nav_survey">Navigate to Survey</string>
+    <string name="cd_nav_settings">Navigate to Settings</string>
+    <string name="cd_status_indicator">Status Indicator</string>
+    <string name="cd_filter_projects">Filter Projects</string>
+</resources>

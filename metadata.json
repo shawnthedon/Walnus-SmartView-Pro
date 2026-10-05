@@ -1,0 +1,6 @@
+{
+  "name": "SmartView Pro",
+  "description": "Intelligent construction-site surveying and project intelligence application by Walnus Global Ventures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
