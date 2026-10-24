@@ -29,10 +29,15 @@ jobs:
         with:
           gradle-version: '9.3.1'
 
-      - name: Install Android SDK
+ 
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK packages
         run: |
-          yes | sdkmanager --licenses >/dev/null
+          yes | sdkmanager --licenses
           sdkmanager "platforms;android-36" "build-tools;36.0.0"
+
 
       - name: Build debug APK
         run: gradle --no-daemon assembleDebug
